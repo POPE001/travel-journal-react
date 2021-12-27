@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 55px;
+    display: flex;
+    padding: 20px 36px;
+    background: #F55A5A
+}
+
+.nav-title {
+    position: absolute;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14.46px;
+    line-height: 17.5px;
+    width: 109px;
+    margin-left: 100px;
+    height: 16px;
+    align-items: center;
+    align-self: center;
+    color: #FFF;
+}
+
+.nav-logo {
+    position: absolute;
+    margin-left: 60px;
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
+
+.card-pic {
+    width: 125px;
+    height: 168px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 5px; 
+}
+
+.card-image {
+    display: flex
+}
+
+.header-text {
+    display: flex;
+}
+
+.japan-text {
+    width: 40px;
+    margin-top: 50px;
+    margin-left: 5px;
+    font-size: 10px;
+    font-style: normal;
+    font-family: Inter;
+    color: #2B283A;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+}
+
+.view-map {
+    width: 106px;
+    margin-top: 50px;
+    margin-left: 9px;
+    font-size: 8px;
+    font-style: normal;
+    font-family: Inter;
+    color: #918E9B;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    text-decoration: underline   
+}
+
+.map-icon {
+    width: 7px;
+    height: 9.55px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.mount-container {
+    display: flex;
+    margin-top: -20px;
+    margin-left: -190px;
+}
+
+.mount-text {
+    color:#2B283A;
+    margin-top:90px;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: Inter;
+    line-height: 30px;
+    position: absolute;
+}
+
+.date-container {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 20px; 
+}
+
+.date-text {
+    color:#2B283A;
+    font-size: 10.24px;
+    margin-top: 15px;
+    line-height: 12px;
+    font-weight: bold;
+    margin-left: 15px;
+    font-style: normal;
+    font-family: Inter;
+}
+
+.mount-desc {
+    font-size: 10.24px;
+    color: #2B283A;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+    margin-left: -115px;
+    width: 200px;
+    height: 45px;
+    margin-top: 40px;
+    
+
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+
+
+    
+    
